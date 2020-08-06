@@ -1,0 +1,129 @@
+/*!
+Theme Name: HealthFlex
+Theme URI: http://plethorathemes.com/healthflex/
+Description: Multipurpose Medical WordPress Theme
+Version: 1.0.0
+Author: Plethora Themes
+Author URI: http://plethorathemes.com
+License: GNU General Public License v2 or later 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive-layout, theme-options, translation-ready
+
+*/
+
+/*
+
+The styles of the theme are compiled by less.php and stored in the uploads folder.
+
+Do not alter or delete this file.
+
+*/
+
+/* 
+================================================================= 
+
+
+REQUIRED WORDPRESS STYLES
+(are styled by less)
+
+
+================================================================= 
+*/
+
+.aligncenter,.alignright,.alignleft,.floatleft,.floatright,
+.textcenter,.textright,.textleft,.wp-caption,.gallery-caption,
+.wp-caption-text,.wp-smiley,blockquote,.sticky,.bypostauthor,
+.screen-reader-text {} 
+
+/* 
+=================================================================
+*/
+
+/* ==============  custom css ====================*/
+
+
+/* ---- global  ---- */
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*
+.table{ margin-top: 20px !important;  color: rgba(255, 255, 255, 0.93); }
+.table > tbody + tbody {    border-top: 1px solid #dddddd !important; }
+*/
+
+/* ----  End global --- */
+
+
+
+a.list-group-item { color: #0e0e0e; !important; text-decoration:none;}
+
+a.list-group-item:hover { color:#fff !important; /*background-color: transparent;*/ background-color:#f79468;
+    border-color:#f79468; text-decoration:none !important;}
+
+.list-group a.active { 
+   background: #E66A2C;
+    border-color: #E66A2C;
+    color: #FFF !important;
+    }
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    z-index: 2;
+    color: #ffffff;
+    background-color: rgba(230, 106, 44, 0.83);;
+    border-color: rgba(230, 106, 44, 0.83);;
+}
+
+.Wrapper_Content-more h4 {
+    color: rgb(222, 82, 6);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.vision-mission p { text-align: left; padding: 10px 0; }
+.vision-mission span { font-weight: bolder; color:chocolate;}
+.vision-mission a { color: chocolate; text-decoration:none;}
+.vision-mission a:hover { color: chocolate; text-decoration: underline;}
+
+/* -------- Dental Implants ----------- */
+
+.Wrapper_Content{  padding-top: 15px; /*color: rgba(255, 255, 255, 0.58); */}
+
+.Wrapper_Content a { color: #de5206; } 
+.Wrapper_Content a:hover { text-decoration: underline; }
+.Wrapper_Content b{ color:#000; !important; /* color: rgba(255, 255, 255, 0.93)*/}
+
+.Wrapper_Content h4,h5,h6 { color: rgb(222, 82, 6); font-weight: 700; text-transform: inherit;}
+
+.Wrapper_Content h2,h3 { color:#000000; font-weight: 700; text-transform: inherit; }
+
+
+.Wrapper_Content table, th, td {
+    border: 2px solid black;
+}
+
+
+
+/* --------  End Dental Implants ----------- */
+/* ------- doctor profile   --------- */
+
+.Wrapper-doctor { }
+
+.full_height{ margin:95px auto !important;}
+.full_height h1{ font-size: 25px; color: red font-weight: 700 !important;}
+
+/* -------  end doctor profile   --------- */
+
+/* -------  dental free checkup  --------- */
+
+
+.Cup_subHeading p { color:#333333 !important; font-family: sans-serif;}
+
+/* -------  end dental free checkup  FF4A03  --------- */
+
+
+.subtitle p {font-family: sans-serif; color: orangered !important; }
+
+/* ==============   end custom css ====================*/
