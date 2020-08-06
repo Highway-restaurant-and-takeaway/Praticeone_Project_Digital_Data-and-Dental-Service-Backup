@@ -1,0 +1,30 @@
+{
+  "name": "dissertation_project_digital_data-and-dental-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "htmldom": "^4.0.11",
+    "json-web-token": "^3.2.0",
+    "mysql": "^2.18.1",
+    "node-html-parser": "^1.2.20",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://techyAchyut:9860470939a@github.com/techyAchyut/Dissertation_Project_Digital_Data-and-Dental-Service.git"
+  },
+  "author": "Achyut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techyAchyut/Dissertation_Project_Digital_Data-and-Dental-Service/issues"
+  },
+  "homepage": "https://github.com/techyAchyut/Dissertation_Project_Digital_Data-and-Dental-Service#readme"
+}
